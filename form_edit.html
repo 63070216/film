@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Edit Form</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="form">
+      <p class="ex1"><h1><center>Edit</center></h1></p>
+    </div>
+  <form action = "edit.php" method = "post" id="CommentForm" >
+    <center>Name:</center><br>
+    <center><input type="text" name = "name" id="idName"></center><br>
+    <center>Comment:</center><br>
+    <center><textarea rows="10" cols="20" name = "comment" id="idComment"></textarea></center><br>
+    <center><a href="show.php"><input type="button" class="btn btn-warning" value="Back"></a>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" id="commentBtn" value="Summit" class="btn btn-success"></center>
+  </form>
+  </div>
+</body>
+</html>
